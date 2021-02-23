@@ -3,5 +3,4 @@
  
  ## [To see the live site click me](http://johnnydalefoskey.org/ticketSales/Foskey-A6-event.html)
  
- ![alt text][screenshot1.png]
- ![alt text][screenshot2.png]
+ ![alt text](screenshot1.png)
