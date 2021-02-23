@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--	Author: Dale Foskey
+			Date:   02/22/21
+			File:	Foskey-A6-event.html
+			Purpose: Chapter 4 Exercise
+			
+			IPO:
+			   Inputs: Number of tickets
+			   Processing: Receive number of tickets
+			               Calculate total cost
+			               Display total cost
+			               Update total ordered in ticket-count.txt
+			   Outputs: total cost
+			
+			Algorithm for event.html
+			    Prompt for numTickets
+			    Get numTickets
+			    Submit numTickets to event.php
+			END 
+	-->
+	<title>Performance</title>
+	<link rel ="stylesheet" type="text/css" href="Foskey-A6-event.css">
+</head>
+
+<body>
+	<h1>Ariana Grande in Concert</h1>
+	<h2>To Purchase Tickets:</h2>
+	
+	<form action="Foskey-A6-event.php" method="POST">
+		<!-- ask the user for their name -->
+		<p>First Name</p>
+		<input type="text" name="firstName">
+		
+		<!-- ask the user for the number of tickets -->
+		<p>Tickets are $35 each. Number of tickets</p>
+		<input type="text" name="numTickets">
+		<br><br>
+		
+		<!-- provide a submit and reset button -->
+		<input type="submit" value="Order Now">
+		<input type="reset" value="Reset">
+	</form>
+
+</body>
+</html>

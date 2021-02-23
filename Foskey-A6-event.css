@@ -1,0 +1,10 @@
+/* Here im applying my background picture to the entire page, and changing all the text 
+   color to white */
+html {
+  background: url(curtians.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
